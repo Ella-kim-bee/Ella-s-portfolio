@@ -2,729 +2,578 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Ella</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
-    <!-- Simple line icons-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
-        rel="stylesheet" />
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-        rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Ella</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+	<!-- Simple line icons-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+			rel="stylesheet" />
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+			rel="stylesheet" type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
-    <!-- Navigation-->
-    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand"><a href="#page-top">ELLA</a></li>
-            <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-            <li class="sidebar-nav-item"><a href="#profile">Profile</a></li>
-            <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
-            <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <!-- Header-->
-    <!-- 모바일 h1수정 -->
-    <header class="masthead d-flex align-items-center">
-        <div class="container px-4 px-lg-5 text-center">
-            <h1 class="mb-3">Kim SeongKyung</h1>
-            <p class="h5 text-dark"><em>김성경의 포트폴리오에 오신것을 환영합니다!</em></p>
-        </div>
-    </header>
-    <!-- Profile -->
-    <section class="content-section bg-light" id="profile">
-        <div class="container px-4 px-lg-5 text-center">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-10">
-                    <h2>신입 프론트엔드 개발자 김성경입니다.</h2>
-                    <p class="mb-5">
-                        책임감 있고 추진력 강한 성격으로 맡은 일에 최선을 다하며,<br>상대의 의견을 존중하고 수용하여 더 나은 결과를 도출해내고 발전해가는 자세를 지니고 있습니다.
-                    </p>
-                    <a class="btn btn-dark btn-xl" target="blank" href="https://github.com/Ella-kim-bee">Github<i
-                            class="icon-social-github"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content-section bg-primary text-white text-center">
-        <div class="container px-4 px-lg-5">
-            <div class="content-section-heading">
-                <h3 class="text-secondary mb-0">PROFILE</h3>
-                <h2 class="mb-5">What I Offer</h2>
-            </div>
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3"><img class="mb-2"
-                            src="assets/img/img_profile_html.png" alt="html5 logo" /></span>
-                    <h4><strong>HTML</strong></h4>
-                    <p class="text-faded mb-0">웹표준과 웹접근성을 준수하고,<br>SEO에 유리한 마크업 구조 설계를 위해 노력합니다.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3"><img class="mb-2"
-                            src="assets/img/img_profile_css.png" alt="css3 logo" /></span>
-                    <h4><strong>CSS</strong></h4>
-                    <p class="text-faded mb-0">유동형 그리드, 미디어쿼리의 이해를 바탕으로 반응형웹을 구현합니다.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3"><img class="mb-2"
-                            src="assets/img/img_profile_js.png" alt="javascript logo" /></span>
-                    <h4><strong>JavaScript</strong></h4>
-                    <p class="text-faded mb-0">
-                        객체를 이해하고 이벤트를 사용해 동적인 웹페이지를 구현하고 제어합니다.
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <span class="service-icon rounded-circle mx-auto mb-3"><img class="mb-2"
-                            src="assets/img/img_profile_jquery.png" alt="jquery logo" /></span>
-                    <h4><strong>jQuery</strong></h4>
-                    <p class="text-faded mb-0">라이브러리를 활용하여 DOM과 이벤트를 손쉽게 구현합니다.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio-->
-    <section class="content-section" id="portfolio">
-        <div class="container px-4 px-lg-5">
-            <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Portfolio</h3>
-                <h2 class="mb-5">My Projects</h2>
-            </div>
-            <div class="row gx-0">
-                <div class="col-lg-6">
-                    <button type="button" class="btn my_btn portfolio-item" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal_1">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <span class="h2">Picker</span>
-                                <p class="mb-0">HTML 30% / CSS 60% / JS 10%</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio_1.jpg" alt="picker main" />
-                    </button>
-                </div>
-                <!-- 내용 수정-->
-                <div class="col-lg-6">
-                    <button type="button" class="btn my_btn portfolio-item" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal_2">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <span class="h2">Da+</span>
-                                <p class="mb-0">HTML 30% / CSS 60% / JS 10%</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="daplus main" />
-                    </button>
-                </div>
-                <div class="col-lg-6">
-                    <button type="button" class="btn my_btn portfolio-item" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal_3">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <span class="h2">a-message</span>
-                                <p class="mb-0">HTML 20% / CSS 50% / JS 30%</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="a-message main" />
-                    </button>
-                </div>
-                <div class="col-lg-6">
-                    <button type="button" class="btn my_btn portfolio-item" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal_4">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <span class="h2">To DO List</span>
-                                <p class="mb-0">react / vue</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="a-message main" />
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact-->
-    <section class="content-section bg-warning" id="contact">
-        <div class="container">
-            <div class="content-section-heading text-center">
-                <h2 class="mb-3">CONTACT</h2>
-                <h3 class="text-black-50 mb-5">당신과 함께 성장하고 싶습니다.</h3>
-            </div>
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div>
-                            <!-- Name input-->
-                            <input class="form-control form-group" id="name" type="text" placeholder="Your Name *"
-                                data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                        </div>
-                        <div class="my-md-4">
-                            <!-- Email address input-->
-                            <input class="form-control form-group" id="email" type="email" placeholder="Your Email *"
-                                data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                        </div>
-                        <div class="mb-md-0">
-                            <!-- Phone number input-->
-                            <input class="form-control form-group" id="phone" type="tel" placeholder="Your Phone *"
-                                data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group-textarea">
-                            <!-- Message input-->
-                            <textarea class="form-control form-group" id="message" placeholder="Your Message *"
-                                data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Submit success message-->
-                <!---->
-                <!-- This is what your users will see when the form-->
-                <!-- has successfully submitted-->
-                <div class="d-none" id="submitSuccessMessage">
-                    <div class="text-center text-white mb-3">
-                        <div class="fw-bolder">Form submission successful!</div>
-                        To activate this form, sign up at
-                        <br />
-                        <a
-                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                    </div>
-                </div>
-                <!-- Submit error message-->
-                <!---->
-                <!-- This is what your users will see when there is-->
-                <!-- an error submitting the form-->
-                <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error sending message!</div>
-                </div>
-                <!-- Submit Button send 실행하기-->
-                <div class="text-center"><button class="btn btn-primary btn-xl" id="submitButton" type="submit">SEND
-                        MESSAGE</button></div>
-            </form>
-        </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer text-center">
-        <div class="container px-4 px-lg-5">
-            <ul class="list-inline mb-5">
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="#!"><i
-                            class="icon-social-instagram"></i></a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white" target="blank"
-                        href="https://github.com/Ella-kim-bee"><i class="icon-social-github"></i></a>
-                </li>
-            </ul>
-            <p class="text-muted small mb-0">Copyright &copy; Ella Website 2022</p>
-        </div>
-    </footer>
-
-    <!-- Portfolio Modals-->
-    <!-- Portfolio item 1 modal popup-->
-    <!-- Scrollable modal -->
-    <!-- Button trigger modal -->
-
-
-    <!-- Modal -->
-    <!-- picker Modal -->
-    <div class="modal fade" id="exampleModal_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="container rel">
-                    <!--  장식요소  -->
-                    <span class="cc_4 bg-warning"><span class="blind">원형 장식</span></span>
-                    <span class="cc_3 border border-warning"><span class="blind">원형 장식</span></span>
-                    <span class="cc_2 border border-primary "><span class="blind">원형 장식</span></span>
-                    <span class="cc_1 bg-primary"><span class="blind">원형 장식</span></span>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body text-center">
-                                <h2 id="exampleModalLabel">Picker</h2>
-                                <p><a class="text-muted mb-0" href="blablablabla.dachome.com/picker">blablablabla.dachome.com/picker</a></p>
-                                <div class="imgs_wrap">
-                                    <div class="img_wrap_desk mb-5">
-                                        <img class="frame" src="assets/img/img_modal_desk_fra.png"
-                                            alt="desktop frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_1_1" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_desk_01.mp4" type="video/mp4">
-                                                This browser does not the support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_1">
-                                        <p class="title h3 text-primary font-monospace">CONCEPT</p>
-                                        <p class="desc mb-5 text-dark lh-lg">올리브영을 모티브로 메이크업 제품들을 메인으로 선정하였습니다.<br>제품을 찾기 쉽게
-                                            카테고리로 나누고, 아이콘을 만들어 보다 쉽게 접근할 수 있도록 하였습니다.<br>메이크업의 주 고객인 젊은 여성들의 니즈에 맞춰 셀럽들의
-                                            화장품을 바로 알 수 있도록 툴팁을 사용하였습니다. 유행에 민감한 10대들을 위해 카테고리별 TOP3를 구성하였습니다.</p>
-                                    </div>
-                                    <div class="para_2">
-                                        <p class="title h3 text-primary mb-5">COLOR</p>
-                                        <p class="desc"><span class="maincolor01 _01">#803636</span><span
-                                                class="maincolor02 _01">#eedcea</span><span
-                                                class="maincolor03 _01">#dddddd</span></p>
-                                        <p class="desc mt-3 mb-5 text-dark lh-lg">톤 다운 된 버건디와 연한 핑크 톤을 사용하여 부드러운 느낌을
-                                            강조했습니다.<br>라인이나 버튼은 연한 회색으로 통일하여 메인 디자인을 헤치지 않도록 하였습니다.</p>
-                                    </div>
-                                    <div class="img_wrap_tab mb-5" style="--bs-aspect-ratio: 75%;">
-                                        <img class="frame" src="assets/img/img_modal_tab_fra.png" alt="tablet frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_1_2" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_teb_01.mp4" type="video/mp4">
-                                                This browser does not the support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_3">
-                                        <p class="title h3 text-primary">RESPONSIVE</p>
-                                        <p class="desc mb-5 text-dark lh-lg">사용자의 다양한 디바이스와 환경을 고려하여 반응형 웹으로 제작하였습니다. <br>어떤
-                                            환경에서 접속하더라도 동일한 사용자 경험을 할 수 있도록 디자인 하였습니다.</p>
-                                    </div>
-                                    <div class="img_wrap_mob mb-5" style="--bs-aspect-ratio: 300%;">
-                                        <img class="frame" src="assets/img/img_modal_mob_fra.png" alt="mobile frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_1_3" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_mob_01.mp4" type="video/mp4">
-                                                This browser does not support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_4">
-                                        <p class="title h3 text-primary">PLANNING</p>
-                                        <p class="desc mb-5 text-dark lh-lg">사이트의 핵심은 제품의 홍보성과 다양성을 사용자에게 보다 쉽게 전달하는 것을 목표로
-                                            하였습니다. 그 과정에서 복잡한 레이아웃이나 과한 인터렉션은 지양하고, <br> 한 눈에 알아볼 수 있는 아이콘과 깔끔한 디자인을
-                                            지향하였습니다.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <a href="#" class="btn btn-primary text-decoration-none">VIEW MORE</a>
-                </div>
-            </div>
-        </div>
+	<!-- Navigation-->
+	<a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+	<nav id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+					<li class="sidebar-brand"><a href="#page-top">ELLA</a></li>
+					<li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+					<li class="sidebar-nav-item"><a href="#profile">Profile</a></li>
+					<li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+					<li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+			</ul>
+	</nav>
+	<!-- Header-->
+	<!-- 모바일 h1수정 -->
+	<header class="masthead d-flex align-items-center">
+			<div class="container px-4 px-lg-5 text-center">
+					<h1 class="mb-3">Kim SeongKyung</h1>
+					<p class="h5 text-dark"><em>김성경의 포트폴리오에 오신것을 환영합니다!</em></p>
+			</div>
+	</header>
+	<!-- Profile -->
+	<section class="content-section bg-light" id="profile">
+			<div class="container px-4 px-lg-5 text-center">
+					<div class="row gx-4 gx-lg-5 justify-content-center">
+							<div class="col-lg-10">
+									<h2>친절한 프론트엔드 개발자 김성경입니다.</h2>
+									<p class="mb-5">
+											책임감 있고 추진력 강한 성격으로 맡은 일에 최선을 다하며,<br>상대의 의견을 존중하고 수용하여 더 나은 결과를 도출해내고 발전해가는 자세를 지니고 있습니다.
+									</p>
+									<a class="btn btn-dark btn-xl" target="blank" href="https://github.com/Ella-kim-bee">Github<i
+													class="icon-social-github"></i></a>
+							</div>
+					</div>
+			</div>
+	</section>
+	<section class="content-section bg-primary text-white text-center">
+			<div class="container px-4 px-lg-5">
+					<div class="content-section-heading">
+							<h3 class="text-secondary mb-0">PROFILE</h3>
+							<h2 class="mb-5">What I Offer</h2>
+					</div>
+					<div class="row gx-4 gx-lg-5">
+							<div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+									<span class="service-icon rounded-circle mx-auto mb-3"><img class="mb-2"
+													src="assets/img/img_profile_html.png" alt="html5 logo" /></span>
+									<h4><strong>HTML</strong></h4>
+									<p class="text-faded mb-0">웹표준과 웹접근성을 준수하고,<br>SEO에 유리한 마크업 구조 설계를 위해 노력합니다.</p>
+							</div>
+							<div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+									<span class="service-icon rounded-circle mx-auto mb-3"><img class="mb-2"
+													src="assets/img/img_profile_css.png" alt="css3 logo" /></span>
+									<h4><strong>CSS</strong></h4>
+									<p class="text-faded mb-0">유동형 그리드, 미디어쿼리의 이해를 바탕으로 반응형웹을 구현합니다.</p>
+							</div>
+							<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+									<span class="service-icon rounded-circle mx-auto mb-3"><img class="mb-2"
+													src="assets/img/img_profile_js.png" alt="javascript logo" /></span>
+									<h4><strong>JavaScript</strong></h4>
+									<p class="text-faded mb-0">
+											객체를 이해하고 이벤트를 사용해 동적인 웹페이지를 구현하고 제어합니다.
+									</p>
+							</div>
+							<div class="col-lg-3 col-md-6">
+									<span class="service-icon rounded-circle mx-auto mb-3"><img class="mb-2"
+													src="assets/img/img_profile_jquery.png" alt="jquery logo" /></span>
+									<h4><strong>jQuery</strong></h4>
+									<p class="text-faded mb-0">라이브러리를 활용하여 DOM과 이벤트를 손쉽게 구현합니다.</p>
+							</div>
+					</div>
+			</div>
+	</section>
+	<!-- Portfolio-->
+	<section class="content-section" id="portfolio">
+			<div class="container px-4 px-lg-5">
+					<div class="content-section-heading text-center">
+							<h3 class="text-secondary mb-0">Portfolio</h3>
+							<h2 class="mb-5">My Projects</h2>
+					</div>
+					<div class="row gx-0">
+							<div class="col-lg-6">
+									<button type="button" class="btn my_btn portfolio-item" data-bs-toggle="modal"
+											data-bs-target="#exampleModal_1">
+											<div class="caption">
+													<div class="caption-content">
+															<span class="h2">Picker</span>
+															<p class="mb-0">HTML 25% / CSS 62% / JS 13%</p>
+													</div>
+											</div>
+											<img class="img-fluid" src="assets/img/portfolio_1.jpg" alt="picker main" />
+									</button>
+							</div>
+							<!-- 내용 수정-->
+							<div class="col-lg-6">
+									<button type="button" class="btn my_btn portfolio-item" data-bs-toggle="modal"
+											data-bs-target="#exampleModal_2">
+											<div class="caption">
+													<div class="caption-content">
+															<span class="h2">Da+</span>
+															<p class="mb-0">HTML 40% / CSS 50% / JS 10%</p>
+													</div>
+											</div>
+											<img class="img-fluid" src="assets/img/portfolio_2.jpg" alt="daplus main" />
+									</button>
+							</div>
+							<div class="col-lg-6">
+									<button type="button" class="btn my_btn portfolio-item" data-bs-toggle="modal"
+											data-bs-target="#exampleModal_3">
+											<div class="caption">
+													<div class="caption-content">
+															<span class="h2">a-message</span>
+															<p class="mb-0">HTML 60% / CSS 30% / JS 10%</p>
+													</div>
+											</div>
+											<img class="img-fluid" src="assets/img/portfolio_3.jpg" alt="a-message main" />
+									</button>
+							</div>
+							<div class="col-lg-6">
+									<button type="button" class="btn my_btn portfolio-item" data-bs-toggle="modal"
+											data-bs-target="#exampleModal_4">
+											<div class="caption">
+													<div class="caption-content">
+															<span class="h2">To DO App</span>
+															<p class="mb-0">vue 100%</p>
+													</div>
+											</div>
+											<img class="img-fluid" src="assets/img/portfolio_4.jpg" alt="a-message main" />
+									</button>
+							</div>
+					</div>
+			</div>
+	</section>
+	<!-- Contact-->
+	<section class="content-section bg-warning" id="contact">
+			<div class="container">
+					<div class="content-section-heading text-center">
+							<h2 class="mb-3">CONTACT</h2>
+							<h3 class="text-black-50 mb-5">당신과 함께 성장하고 싶습니다.</h3>
+					</div>
+					<!-- * * * * * * * * * * * * * * *-->
+					<!-- * * SB Forms Contact Form * *-->
+					<!-- * * * * * * * * * * * * * * *-->
+					<!-- This form is pre-integrated with SB Forms.-->
+					<!-- To make this form functional, sign up at-->
+					<!-- https://startbootstrap.com/solution/contact-forms-->
+					<!-- to get an API token!-->
+					<form id="contactForm" data-sb-form-api-token="API_TOKEN">
+							<div class="row align-items-stretch mb-5">
+									<div class="col-md-6">
+											<div>
+												<!-- Name input-->
+												<label for="name"></label>
+												<input class="form-control form-group" id="name" type="text" placeholder="Your Name *" required/>
+												<div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+											</div>
+											<div class="my-md-4">
+												<!-- Email address input-->
+												<label for="email"></label>
+												<input class="form-control form-group" id="email" type="email" placeholder="Your Email *" required />
+											</div>
+											<div class="mb-md-0">
+												<!-- Phone number input-->
+												<label for="phone"></label>
+												<input class="form-control form-group" id="phone" type="tel" placeholder="Your Phone *" required />
+											</div>
+									</div>
+									<div class="col-md-6">
+											<div class="form-group-textarea">
+											  <!-- Message input-->
+						            <label for="message"></label>
+                        <textarea class="form-control form-group" id="message" placeholder="Your Message *" required></textarea>
+											</div>
+									</div>
+							</div>
+							<!-- Submit Button send 실행하기-->
+							<div class="text-center"><button class="btn btn-primary btn-xl" id="submitButton" type="button">SEND MESSAGE</button></div>
+					</form>
+			</div>
+	</section>
+	<!-- Footer-->
+	<footer class="footer text-center">
+    <div class="container px-4 px-lg-5">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" target="blank" href="https://github.com/Ella-kim-bee"><i class="icon-social-github"></i></a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; Ella Website 2022</p> 
     </div>
-    <!-- da+ Modal -->
-    <div class="modal fade" id="exampleModal_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="container rel">
-                    <!--  장식요소  -->
-                    <span class="cc_4 bg-warning"><span class="blind">원형 장식</span></span>
-                    <span class="cc_3 border border-warning"><span class="blind">원형 장식</span></span>
-                    <span class="cc_2 border border-primary "><span class="blind">원형 장식</span></span>
-                    <span class="cc_1 bg-primary"><span class="blind">원형 장식</span></span>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body text-center">
-                                <h2 id="exampleModalLabel">Da+</h2>
-                                <p><a class="text-muted mb-0" href="blablablabla.dachome.com/picker">blablablabla.dachome.com/da</a></p>
-                                <div class="imgs_wrap">
-                                    <div class="img_wrap_desk mb-5">
-                                        <img class="frame" src="assets/img/img_modal_desk_fra.png"
-                                            alt="desktop frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_2_1" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_desk_02.mp4" type="video/mp4">
-                                                This browser does not the support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_1">
-                                        <p class="title h3 text-primary font-monospace">CONCEPT</p>
-                                        <p class="desc mb-5 text-dark lh-lg">팀 프로젝트로 UI디자이너 1명, 개발자 3명으로 진행하였습니다.<br>
-                                            드라마 전문 스트리밍을 주제로 선정하였고, 드라마를 다양하게 분류하여 타 스트리밍 홈페이지와 차별성을 두었습니다.<br>
-                                            디자인적인 요소보단 포스터 이미지를 사용하여 전달력을 높였습니다.</p>
-                                    </div>
-                                    <div class="para_2">
-                                        <p class="title h3 text-primary mb-5">COLOR</p>
-                                        <p class="desc"><span class="maincolor01 _02">#085a8c</span><span
-                                                class="maincolor02 _02">#ffffff</span><span
-                                                class="maincolor03 _02">#333333</span></p>
-                                        <p class="desc mt-3 mb-5 text-dark lh-lg">드라마 포스터 특성상 다양한 배경의 이미지가 많아 메인 색상은 차분한 색으로
-                                            지정하였습니다.<br>
-                                            진한 푸른색을 사용하여 메인 컬러가 돋보이기 보다는 모든 이미지와 어우러질 수 있도록 하였습니다.<br>
-                                            배경은 흰색으로 버튼은 진한 회색이나 검정으로 하여 버튼의 가시성을 높였습니다.</p>
-                                    </div>
-                                    <div class="img_wrap_tab mb-5" style="--bs-aspect-ratio: 75%;">
-                                        <img class="frame" src="assets/img/img_modal_tab_fra.png" alt="tablet frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_2_2" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_teb_02.mp4" type="video/mp4">
-                                                This browser does not the support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_3">
-                                        <p class="title h3 text-primary">RESPONSIVE</p>
-                                        <p class="desc mb-5 text-dark lh-lg">사용자의 다양한 디바이스와 환경을 고려하여 반응형 웹으로 제작하였습니다. <br>
-                                            어떤 환경에서 접속하더라도 동일한 사용자 경험을 할 수 있도록 디자인 하였습니다.</p>
-                                    </div>
-                                    <div class="img_wrap_mob mb-5" style="--bs-aspect-ratio: 300%;">
-                                        <img class="frame" src="assets/img/img_modal_mob_fra.png" alt="mobile frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_2_3" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_mob_02.mp4" type="video/mp4">
-                                                This browser does not support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_4">
-                                        <p class="title h3 text-primary">PLANNING</p>
-                                        <p class="desc mb-5 text-dark lh-lg">드라마의 다양성과 내용을 사용자에게 직관적으로전달하는 것을 목표로 하였습니다.<br>
-                                            그 과정에서 화려한 디자인 요소는 지양하고, 간결한 레이아웃으로 정돈된 느낌을 지향하였습니다.<br>
-                                            aboutus, schedule, situation, community 서브페이지를 제작하여 완성도를 높였습니다. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <a href="#" class="btn btn-primary text-decoration-none">VIEW MORE</a>
-                </div>
-            </div>
+	</footer>
+
+	<!-- Portfolio Modals-->
+	<!-- Portfolio item 1 modal popup-->
+	<!-- Scrollable modal -->
+	<!-- Button trigger modal -->
+
+
+	<!-- Modal -->
+	<!-- picker Modal -->
+	<div class="modal fade" id="exampleModal_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-    </div>
-    <!-- amessage Modal -->
-    <div class="modal fade" id="exampleModal_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="container rel">
-                    <!--  장식요소  -->
-                    <span class="cc_4 bg-warning"><span class="blind">원형 장식</span></span>
-                    <span class="cc_3 border border-warning"><span class="blind">원형 장식</span></span>
-                    <span class="cc_2 border border-primary "><span class="blind">원형 장식</span></span>
-                    <span class="cc_1 bg-primary"><span class="blind">원형 장식</span></span>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body text-center">
-                                <h2 id="exampleModalLabel">a-message</h2>
-                                <p><a class="text-muted mb-0" href="blablablabla.dachome.com/picker">blablablabla.dachome.com/picker</a></p>
-                                <div class="imgs_wrap">
-                                    <div class="img_wrap_desk mb-5">
-                                        <img class="frame" src="assets/img/img_modal_desk_fra.png"
-                                            alt="desktop frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_3_1" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_desk_03.mp4" type="video/mp4">
-                                                This browser does not the support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_1">
-                                        <p class="title h3 text-primary font-monospace">CONCEPT</p>
-                                        <p class="desc mb-5 text-dark lh-lg">a-message는 느린 우체통을 모티브로 삼아 예약메세지를 주제로 하였습니다.<br>
-                                            Quill Editor를 사용하여 오픈소스까지 활용해보았습니다.<br>
-                                            write에서 작성한 message를 localStorage저장하고 sentbox에 rendering하는 기능까지 구현하였습니다.</p>
-                                    </div>
-                                    <div class="para_2">
-                                        <p class="title h3 text-primary mb-5">COLOR</p>
-                                        <p class="desc"><span class="maincolor01 _03">#28a745</span><span
-                                                class="maincolor02 _03">#222222</span><span
-                                                class="maincolor03 _03">#ffffff</span></p>
-                                        <p class="desc mt-3 mb-5 text-dark lh-lg">눈이 편안할 수 있도록 짙은 회색과 초록색을 사용하였습니다.<br>
-                                            텍스트의 색상은 흰색으로 하여 가시성을 높였습니다.</p>
-                                    </div>
-                                    <div class="img_wrap_tab mb-5" style="--bs-aspect-ratio: 75%;">
-                                        <img class="frame" src="assets/img/img_modal_tab_fra.png" alt="tablet frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_3_2" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_teb_03.mp4" type="video/mp4">
-                                                This browser does not the support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_3">
-                                        <p class="title h3 text-primary">RESPONSIVE</p>
-                                        <p class="desc mb-5 text-dark lh-lg">사용자의 다양한 디바이스와 환경을 고려하여 반응형 웹으로 제작하였습니다. <br>
-                                            어떤 환경에서 접속하더라도 동일한 사용자 경험을 할 수 있도록 디자인 하였습니다.</p>
-                                    </div>
-                                    <div class="img_wrap_mob mb-5" style="--bs-aspect-ratio: 300%;">
-                                        <img class="frame" src="assets/img/img_modal_mob_fra.png" alt="mobile frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_3_3" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_mob_03.mp4" type="video/mp4">
-                                                This browser does not support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_4">
-                                        <p class="title h3 text-primary">PLANNING</p>
-                                        <p class="desc mb-5 text-dark lh-lg">디자인 요소보다는 javascript를 활용하는데 중점을 두었습니다.<br>
-										사용자의 편리성을 고려하여 간단한 레이아웃으로 제작하였습니다.<br>
-										write, inbox, sentbox, login까지 모든 서브페이지를 제작하여 완성도를 높였습니다. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="container rel">
+          <!--  장식요소  -->
+          <span class="cc_4 bg-warning"><span class="blind">원형 장식</span></span>
+          <span class="cc_3 border border-warning"><span class="blind">원형 장식</span></span>
+          <span class="cc_2 border border-primary "><span class="blind">원형 장식</span></span>
+          <span class="cc_1 bg-primary"><span class="blind">원형 장식</span></span>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body text-center">
+                <h2 id="exampleModalLabel">Picker</h2>
+                <p><a class="text-muted mb-0" href="http://ellakim.dothome.co.kr/" target="_blank">http://ellakim.dothome.co.kr/</a></p>
+                <div class="imgs_wrap">
+                  <div class="img_wrap_desk mb-5">
+                    <img class="frame" src="assets/img/img_modal_desk_fra.png" alt="desktop frame" />
+                    <div class="thum playButton">
+                      <video id="video_1_1" muted="muted" loop="loop" style="cursor:pointer;">
+                       <source src="assets/video/video_desk_01.mp4" type="video/mp4">
+                        This browser does not the support video tags. It is recommended to use chrome.
+                      </video>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <a href="#" class="btn btn-primary text-decoration-none">VIEW MORE</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- todolist Modal -->
-    <div class="modal fade" id="exampleModal_4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="container rel">
-                    <!--  장식요소  -->
-                    <span class="cc_4 bg-warning"><span class="blind">원형 장식</span></span>
-                    <span class="cc_3 border border-warning"><span class="blind">원형 장식</span></span>
-                    <span class="cc_2 border border-primary "><span class="blind">원형 장식</span></span>
-                    <span class="cc_1 bg-primary"><span class="blind">원형 장식</span></span>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body text-center">
-                                <h2 id="exampleModalLabel">TO DO LIST</h2>
-                                <p><a class="text-muted mb-0" href="blablablabla.dachome.com/picker">blablablabla.dachome.com/picker</a></p>
-                                <div class="imgs_wrap">
-                                    <div class="img_wrap_desk mb-5">
-                                        <img class="frame" src="assets/img/img_modal_desk_fra.png"
-                                            alt="desktop frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_4_1" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_desk_04.mp4" type="video/mp4">
-                                                This browser does not the support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_1">
-                                        <p class="title h3 text-primary font-monospace">CONCEPT</p>
-                                        <p class="desc mb-5 text-dark lh-lg">a-message는 느린 우체통을 모티브로 삼아 예약메세지를 주제로 하였습니다.<br>
-                                            Quill Editor를 사용하여 오픈소스까지 활용해보았습니다.<br>
-                                            write에서 작성한 message를 localStorage저장하고 sentbox에 rendering하는 기능까지 구현하였습니다.</p>
-                                    </div>
-                                    <div class="para_2">
-                                        <p class="title h3 text-primary mb-5">COLOR</p>
-                                        <p class="desc"><span class="maincolor01 _03">#28a745</span><span
-                                                class="maincolor02 _03">#222222</span><span
-                                                class="maincolor03 _03">#ffffff</span></p>
-                                        <p class="desc mt-3 mb-5 text-dark lh-lg">눈이 편안할 수 있도록 짙은 회색과 초록색을 사용하였습니다.<br>
-                                            텍스트의 색상은 흰색으로 하여 가시성을 높였습니다.</p>
-                                    </div>
-                                    <div class="img_wrap_tab mb-5" style="--bs-aspect-ratio: 75%;">
-                                        <img class="frame" src="assets/img/img_modal_tab_fra.png" alt="tablet frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_4_2" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_teb_04.mp4" type="video/mp4">
-                                                This browser does not the support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_3">
-                                        <p class="title h3 text-primary">RESPONSIVE</p>
-                                        <p class="desc mb-5 text-dark lh-lg">사용자의 다양한 디바이스와 환경을 고려하여 반응형 웹으로 제작하였습니다. <br>
-                                            어떤 환경에서 접속하더라도 동일한 사용자 경험을 할 수 있도록 디자인 하였습니다.</p>
-                                    </div>
-                                    <div class="img_wrap_mob mb-5" style="--bs-aspect-ratio: 300%;">
-                                        <img class="frame" src="assets/img/img_modal_mob_fra.png" alt="mobile frame" />
-                                        <div class="thum playButton">
-                                            <video id="video_4_3" muted="muted" loop="loop" style="cursor:pointer;">
-                                                <source src="assets/video/video_mob_04.mp4" type="video/mp4">
-                                                This browser does not support video tags. It is recommended to use
-                                                chrome.
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="para_4">
-                                        <p class="title h3 text-primary">PLANNING</p>
-                                        <p class="desc mb-5 text-dark lh-lg">디자인 요소보다는 javascript를 활용하는데 중점을 두었습니다.<br>
-										사용자의 편리성을 고려하여 간단한 레이아웃으로 제작하였습니다.<br>
-										write, inbox, sentbox, login까지 모든 서브페이지를 제작하여 완성도를 높였습니다. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="para_1">
+                    <p class="title h3 text-primary font-monospace">CONCEPT</p>
+                      <p class="desc mb-5 text-dark lh-lg">올리브영과 오늘의 집을 모티브로 메이크업 제품들을 메인으로 선정하였습니다.<br>제품을 찾기 쉽게
+                        카테고리로 나누고, 아이콘을 만들어 보다 쉽게 접근할 수 있도록 하였습니다.<br>메이크업의 주 고객인 젊은 여성들의 니즈에 맞춰 셀럽들의
+                        화장품을 바로 알 수 있도록 툴팁을 사용하였습니다. 유행에 민감한 10대들을 위해 카테고리별 TOP3를 구성하였습니다.</p>
+                  </div>
+                  <div class="para_2">
+                    <p class="title h3 text-primary mb-5">COLOR</p>
+                    <p class="desc"><span class="maincolor01 _01">#803636</span><span class="maincolor02 _01">#eedcea</span><span class="maincolor03 _01">#dddddd</span></p>
+                    <p class="desc mt-3 mb-5 text-dark lh-lg">톤 다운 된 버건디와 연한 핑크 톤을 사용하여 부드러운 느낌을 강조했습니다.<br>라인이나 버튼은 연한 회색으로 통일하여 메인 디자인을 헤치지 않도록 하였습니다.</p>
+                  </div>
+                  <div class="img_wrap_tab mb-5" style="--bs-aspect-ratio: 75%;">
+                    <img class="frame" src="assets/img/img_modal_tab_fra.png" alt="tablet frame" />
+                    <div class="thum playButton">
+                      <video id="video_1_2" muted="muted" loop="loop" style="cursor:pointer;">
+                        <source src="assets/video/video_teb_01.mp4" type="video/mp4">
+                          This browser does not the support video tags. It is recommended to use chrome.
+                      </video>
                     </div>
+                  </div>
+                  <div class="para_3">
+                    <p class="title h3 text-primary">RESPONSIVE</p>
+                    <p class="desc mb-5 text-dark lh-lg">사용자의 다양한 디바이스와 환경을 고려하여 반응형 웹으로 제작하였습니다. 
+                      <br>어떤 환경에서 접속하더라도 동일한 사용자 경험을 할 수 있도록 디자인 하였습니다.</p>
+                  </div>
+                  <div class="img_wrap_mob mb-5" style="--bs-aspect-ratio: 300%;">
+                    <img class="frame" src="assets/img/img_modal_mob_fra.png" alt="mobile frame" />
+                    <div class="thum playButton">
+                      <video id="video_1_3" muted="muted" loop="loop" style="cursor:pointer;">
+                        <source src="assets/video/video_mob_01.mp4" type="video/mp4">
+                          This browser does not support video tags. It is recommended to use chrome.
+                      </video>
+                    </div>
+                  </div>
+                  <div class="para_4">
+                    <p class="title h3 text-primary">PLANNING</p>
+                    <p class="desc mb-5 text-dark lh-lg">사이트의 핵심은 제품의 홍보성과 다양성을 사용자에게 보다 쉽게 전달하는 것을 목표로 하였습니다. 그 과정에서 복잡한 레이아웃이나 과한 인터렉션은 지양하고, 
+                      <br> 한 눈에 알아볼 수 있는 아이콘과 깔끔한 디자인을 지향하였습니다.</p>
+                  </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <a href="#" class="btn btn-primary text-decoration-none">VIEW MORE</a>
-                </div>
+              </div>
+              </div>
             </div>
+          </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="#" class="btn btn-primary text-decoration-none">VIEW MORE</a>
         </div>
+      </div>
     </div>
+	</div>
+	<!-- da+ Modal -->
+	<div class="modal fade" id="exampleModal_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+							<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="container rel">
+									<!--  장식요소  -->
+									<span class="cc_4 bg-warning"><span class="blind">원형 장식</span></span>
+									<span class="cc_3 border border-warning"><span class="blind">원형 장식</span></span>
+									<span class="cc_2 border border-primary "><span class="blind">원형 장식</span></span>
+									<span class="cc_1 bg-primary"><span class="blind">원형 장식</span></span>
+									<div class="row justify-content-center">
+											<div class="col-lg-8">
+													<div class="modal-body text-center">
+															<h2 id="exampleModalLabel">Da+</h2>
+															<p><a class="text-muted mb-0" href="https://ella-kim-bee.github.io/Daplus/" target="_blank">https://ella-kim-bee.github.io/Daplus/</a></p>
+															<div class="imgs_wrap">
+																	<div class="img_wrap_desk mb-5">
+																			<img class="frame" src="assets/img/img_modal_desk_fra.png"
+																					alt="desktop frame" />
+																			<div class="thum playButton">
+																					<video id="video_2_1" muted="muted" loop="loop" style="cursor:pointer;">
+																							<source src="assets/video/video_desk_02.mp4" type="video/mp4">
+																							This browser does not the support video tags. It is recommended to use
+																							chrome.
+																					</video>
+																			</div>
+																	</div>
+																	<div class="para_1">
+																			<p class="title h3 text-primary font-monospace">CONCEPT</p>
+																			<p class="desc mb-5 text-dark lh-lg">팀 프로젝트로 UI디자이너 1명, 개발자 3명으로 진행하였습니다.<br>
+																					드라마 전문 스트리밍을 주제로 선정하였고, 드라마를 다양하게 분류하여 타 스트리밍 홈페이지와 차별성을 두었습니다.<br>
+																					디자인적인 요소보단 포스터 이미지를 사용하여 전달력을 높였습니다.</p>
+																	</div>
+																	<div class="para_2">
+																			<p class="title h3 text-primary mb-5">COLOR</p>
+																			<p class="desc"><span class="maincolor01 _02">#085a8c</span><span
+																							class="maincolor02 _02">#ffffff</span><span
+																							class="maincolor03 _02">#333333</span></p>
+																			<p class="desc mt-3 mb-5 text-dark lh-lg">드라마 포스터 특성상 다양한 배경의 이미지가 많아 메인 색상은 차분한 색으로
+																					지정하였습니다.<br>
+																					진한 푸른색을 사용하여 메인 컬러가 돋보이기 보다는 모든 이미지와 어우러질 수 있도록 하였습니다.<br>
+																					배경은 흰색으로 버튼은 진한 회색이나 검정으로 하여 버튼의 가시성을 높였습니다.</p>
+																	</div>
+																	<div class="img_wrap_tab mb-5" style="--bs-aspect-ratio: 75%;">
+																			<img class="frame" src="assets/img/img_modal_tab_fra.png" alt="tablet frame" />
+																			<div class="thum playButton">
+																					<video id="video_2_2" muted="muted" loop="loop" style="cursor:pointer;">
+																							<source src="assets/video/video_teb_02.mp4" type="video/mp4">
+																							This browser does not the support video tags. It is recommended to use
+																							chrome.
+																					</video>
+																			</div>
+																	</div>
+																	<div class="para_3">
+																			<p class="title h3 text-primary">RESPONSIVE</p>
+																			<p class="desc mb-5 text-dark lh-lg">사용자의 다양한 디바이스와 환경을 고려하여 반응형 웹으로 제작하였습니다. <br>
+																					어떤 환경에서 접속하더라도 동일한 사용자 경험을 할 수 있도록 디자인 하였습니다.</p>
+																	</div>
+																	<div class="img_wrap_mob mb-5" style="--bs-aspect-ratio: 300%;">
+																			<img class="frame" src="assets/img/img_modal_mob_fra.png" alt="mobile frame" />
+																			<div class="thum playButton">
+																					<video id="video_2_3" muted="muted" loop="loop" style="cursor:pointer;">
+																							<source src="assets/video/video_mob_02.mp4" type="video/mp4">
+																							This browser does not support video tags. It is recommended to use
+																							chrome.
+																					</video>
+																			</div>
+																	</div>
+																	<div class="para_4">
+																			<p class="title h3 text-primary">PLANNING</p>
+																			<p class="desc mb-5 text-dark lh-lg">드라마의 다양성과 내용을 사용자에게 직관적으로전달하는 것을 목표로 하였습니다.<br>
+																					그 과정에서 화려한 디자인 요소는 지양하고, 간결한 레이아웃으로 정돈된 느낌을 지향하였습니다.<br>
+																					각각의 서브페이지를 제작하여 완성도를 높였습니다. </p>
+																	</div>
+															</div>
+													</div>
+											</div>
+									</div>
+							</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									<a href="#" class="btn btn-primary text-decoration-none">VIEW MORE</a>
+							</div>
+					</div>
+			</div>
+	</div>
+	<!-- amessage Modal -->
+	<div class="modal fade" id="exampleModal_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+							<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="container rel">
+									<!--  장식요소  -->
+									<span class="cc_4 bg-warning"><span class="blind">원형 장식</span></span>
+									<span class="cc_3 border border-warning"><span class="blind">원형 장식</span></span>
+									<span class="cc_2 border border-primary "><span class="blind">원형 장식</span></span>
+									<span class="cc_1 bg-primary"><span class="blind">원형 장식</span></span>
+									<div class="row justify-content-center">
+											<div class="col-lg-8">
+													<div class="modal-body text-center">
+															<h2 id="exampleModalLabel">a-message</h2>
+															<p><a class="text-muted mb-0" href="https://ella-kim-bee.github.io/amessage/" target="_blank">https://ella-kim-bee.github.io/amessage/</a></p>
+															<div class="imgs_wrap">
+																	<div class="img_wrap_desk mb-5">
+																			<img class="frame" src="assets/img/img_modal_desk_fra.png"
+																					alt="desktop frame" />
+																			<div class="thum playButton">
+																					<video id="video_3_1" muted="muted" loop="loop" style="cursor:pointer;">
+																							<source src="assets/video/video_desk_03.mp4" type="video/mp4">
+																							This browser does not the support video tags. It is recommended to use
+																							chrome.
+																					</video>
+																			</div>
+																	</div>
+																	<div class="para_1">
+																			<p class="title h3 text-primary font-monospace">CONCEPT</p>
+																			<p class="desc mb-5 text-dark lh-lg">a-message는 느린 우체통을 모티브로 삼아 예약메세지를 주제로 하였습니다.<br>
+																					Quill Editor를 사용하여 오픈소스까지 활용해보았습니다.<br>
+																					write에서 작성한 message를 localStorage저장하고 sentbox에 rendering하는 기능까지 구현하였습니다.</p>
+																	</div>
+																	<div class="para_2">
+																			<p class="title h3 text-primary mb-5">COLOR</p>
+																			<p class="desc"><span class="maincolor01 _03">#28a745</span><span
+																							class="maincolor02 _03">#222222</span><span
+																							class="maincolor03 _03">#ffffff</span></p>
+																			<p class="desc mt-3 mb-5 text-dark lh-lg">눈이 편안할 수 있도록 짙은 회색과 초록색을 사용하였습니다.<br>
+																					텍스트의 색상은 흰색으로 하여 가시성을 높였습니다.</p>
+																	</div>
+																	<div class="img_wrap_tab mb-5" style="--bs-aspect-ratio: 75%;">
+																			<img class="frame" src="assets/img/img_modal_tab_fra.png" alt="tablet frame" />
+																			<div class="thum playButton">
+																					<video id="video_3_2" muted="muted" loop="loop" style="cursor:pointer;">
+																							<source src="assets/video/video_teb_03.mp4" type="video/mp4">
+																							This browser does not the support video tags. It is recommended to use
+																							chrome.
+																					</video>
+																			</div>
+																	</div>
+																	<div class="para_3">
+																			<p class="title h3 text-primary">RESPONSIVE</p>
+																			<p class="desc mb-5 text-dark lh-lg">사용자의 다양한 디바이스와 환경을 고려하여 반응형 웹으로 제작하였습니다. <br>
+																					어떤 환경에서 접속하더라도 동일한 사용자 경험을 할 수 있도록 디자인 하였습니다.</p>
+																	</div>
+																	<div class="img_wrap_mob mb-5" style="--bs-aspect-ratio: 300%;">
+																			<img class="frame" src="assets/img/img_modal_mob_fra.png" alt="mobile frame" />
+																			<div class="thum playButton">
+																					<video id="video_3_3" muted="muted" loop="loop" style="cursor:pointer;">
+																							<source src="assets/video/video_mob_03.mp4" type="video/mp4">
+																							This browser does not support video tags. It is recommended to use
+																							chrome.
+																					</video>
+																			</div>
+																	</div>
+																	<div class="para_4">
+																			<p class="title h3 text-primary">PLANNING</p>
+																			<p class="desc mb-5 text-dark lh-lg">디자인 요소보다는 javascript를 활용하는데 중점을 두었습니다.<br>
+																				사용자의 편리성을 고려하여 간단한 레이아웃으로 제작하였습니다.<br>
+																				write, inbox, sentbox, login까지 모든 서브페이지를 제작하여 완성도를 높였습니다. </p>
+																	</div>
+															</div>
+													</div>
+											</div>
+									</div>
+							</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									<a href="#" class="btn btn-primary text-decoration-none">VIEW MORE</a>
+							</div>
+					</div>
+			</div>
+	</div>
+
+	<!-- todolist Modal -->
+	<div class="modal fade" id="exampleModal_4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+							<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="container rel">
+									<!--  장식요소  -->
+									<span class="cc_4 bg-warning"><span class="blind">원형 장식</span></span>
+									<span class="cc_3 border border-warning"><span class="blind">원형 장식</span></span>
+									<span class="cc_2 border border-primary "><span class="blind">원형 장식</span></span>
+									<span class="cc_1 bg-primary"><span class="blind">원형 장식</span></span>
+									<div class="row justify-content-center">
+											<div class="col-lg-8">
+													<div class="modal-body text-center">
+															<h2 id="exampleModalLabel">TO DO LIST</h2>
+															<p><a class="text-muted mb-0" href="https://ella-kim-bee.github.io/vue-todo-app/" target="_blank">https://ella-kim-bee.github.io/vue-todo-app/</a></p>
+															<div class="imgs_wrap">
+																	<div class="img_wrap_desk mb-5">
+																			<img class="frame" src="assets/img/img_modal_desk_fra.png"
+																					alt="desktop frame" />
+																			<div class="thum playButton">
+																					<video id="video_4_1" muted="muted" loop="loop" style="cursor:pointer;">
+																							<source src="assets/video/video_desk_04.mp4" type="video/mp4">
+																							This browser does not the support video tags. It is recommended to use
+																							chrome.
+																					</video>
+																			</div>
+																	</div>
+																	<div class="para_1">
+																			<p class="title h3 text-primary font-monospace">CONCEPT</p>
+																			<p class="desc mb-5 text-dark lh-lg">최근 front-end에서 많이 사용되는 framework인 vue.js를 사용하여 to do app을 만들었습니다.<br>
+																				To Do, Doing, Done 세 가지로 분류하여 localStorage에 저장하고 삭제하는 기능을 구현하였습니다.</p>
+																	</div>
+																	<div class="para_2">
+																			<p class="title h3 text-primary mb-5">FUNCTIONAL</p>
+																			<p class="desc mt-3 mb-5 text-dark lh-lg">TodoHeader, TodoSelectbox, TodoInput, MyList, TodoFooter의 components를 제작하였고,<br>
+																				MyList component를 To Do, Doing, Done 세 가지로 활용하였습니다.<br>
+																				storage에는 JSON형식으로 변환하고 일정시간 뒤에 값을 보내도록 설정해놓았고,<br>
+																				이를 App.vue에서 받아 created에서 동기처리를 하였습니다.</p>
+																	</div>
+																	<div class="img_wrap_tab mb-5" style="--bs-aspect-ratio: 75%;">
+																			<img class="frame" src="assets/img/img_modal_tab_fra.png" alt="tablet frame" />
+																			<div class="thum playButton">
+																					<video id="video_4_2" muted="muted" loop="loop" style="cursor:pointer;">
+																							<source src="assets/video/video_teb_04.mp4" type="video/mp4">
+																							This browser does not the support video tags. It is recommended to use
+																							chrome.
+																					</video>
+																			</div>
+																	</div>
+																	<div class="para_3">
+																			<p class="title h3 text-primary">USAGE</p>
+																			<p class="desc mb-5 text-dark lh-lg">To Do, Doing, Done 중 상태를 선택하고, 내용을 작성 후 Enter를 치거나, 우측 +버튼을 클릭하면<br>
+																			해당하는 상태에 내용이 추가되고 localStorage에 배열로 저장됩니다.<br>
+																			새로고침하면 localStorage에 저장된 내용이 일정시간 뒤엔 출력됩니다.<br>
+																			각 내용 우측에 휴지통 버튼을 클리하면 해당 내용만 삭제되고, 가장 하단에 있는 Clear All을 클릭하면 모든 내용이 삭제됩니다</p>
+																	</div>
+																	<div class="img_wrap_mob mb-5" style="--bs-aspect-ratio: 300%;">
+																			<img class="frame" src="assets/img/img_modal_mob_fra.png" alt="mobile frame" />
+																			<div class="thum playButton">
+																					<video id="video_4_3" muted="muted" loop="loop" style="cursor:pointer;">
+																							<source src="assets/video/video_mob_04.mp4" type="video/mp4">
+																							This browser does not support video tags. It is recommended to use
+																							chrome.
+																					</video>
+																			</div>
+																	</div>
+																	<div class="para_4">
+																			<p class="title h3 text-primary">PLANNING</p>
+																			<p class="desc mb-5 text-dark lh-lg">HTML, CSS, javascript를 넘어서 최신의 기술력을 습득하고자 하였습니다.<br>
+																				component 단위로 구상하였고, 데이터를 저장하고 사용하는데 중점을 두었습니다.</p>
+																	</div>
+															</div>
+													</div>
+											</div>
+									</div>
+							</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									<a href="#" class="btn btn-primary text-decoration-none">VIEW MORE</a>
+							</div>
+					</div>
+			</div>
+	</div>
 
 
 
 
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- Modal JS-->
-    <script>
-        /* =============================================== 
-        ==================================================
-        ==================================================
-        =================== customizing ==================
-        ==================================================
-        ==================================================
-        ==================================================*/
-
-
-        // ====== function { click video => play } =======
-		let $thum = document.getElementsByClassName('thum');
-        
-		function playerController(event) {
-            let el = event.target;
-
-            if (el.paused) {
-                el.play();
-			 for(let i = 0; i < $thum.length; i++){
-				$thum[i].addEventListener('click', function(e){
-					let e2 = e ? e : window.event;
-					$thum[i].classList.remove('playButton');
-				});
-			}
-            }
-            else {
-                el.pause();
-			 for(let i = 0; i < $thum.length; i++){
-				$thum[i].addEventListener('click', function(e){
-					let e2 = e ? e : window.event;
-					$thum[i].classList.add('playButton');
-                   
-				});
-			}
-            }
-		  
-        }
-
-        for (let i = 1; i <= 4; i++) {
-            for (let j = 1; j <= 3; j++) {
-                document.getElementById("exampleModal_" + i).addEventListener("hidden.bs.modal", function (e) {
-				document.getElementById("video_" + i + "_" + j).currentTime = 0;
-                    document.getElementById("video_" + i + "_" + j).pause();
-				for (let k = 0; k < $thum.length; k++){
-					$thum[k].classList.add('playButton');
-				}
-                });
-                document.getElementById("video_" + i + "_" + j).onclick = playerController; // 함수자체를 넣음
-            }
-        }
-
-
-        // ====== function { scroll => p.title p.desc animation } =======
-        let modals = document.getElementsByClassName("modal");
-        let modalNumber;
-        let paras = [document.getElementsByClassName('para_1'), document.getElementsByClassName('para_2'), document.getElementsByClassName('para_3'), document.getElementsByClassName('para_4') ];
-        let targets = [];
-        let value;
-        let portfolioItems = document.getElementsByClassName("portfolio-item");
-        
-        function scrolling_Up(event) {
-            for(let i = 0; i < modals.length; i++){
-             paras[0][i].style.animation = "fade_in_up 1.5s forwards";
-             paras[1][i].style.animation = "fade_in_up 1.5s forwards";
-            }
-        }
-
-        function scrolling(event) {
-            modalNumber = -1;
-
-            for(let i = 0; i <= modals.length - 1; i++){
-                if(modals[i].style.display == 'block')
-                {
-                    modalNumber = i;
-                }
-            }
-            if(modalNumber == -1){
-                return;
-            }
-
-            let st_h = modals[modalNumber].scrollTop + window.innerHeight;
-
-            for(let i = 0; i < paras.length; i++){
-                targets[i] = paras[i][modalNumber].offsetTop + 50;
-                value = targets[i] + paras[i][modalNumber].clientHeight + window.innerHeight; 
-               
-                if(st_h >= targets[i] && st_h <= value){
-                    paras[i][modalNumber].style.animation = "fade_in_up 1.5s forwards";
-                }
-                else{
-                    paras[i][modalNumber].style.animation = "disapear 1.5s forwards";
-                }
-            }
-        }
-
-
-        for(let i = 0; i <= modals.length - 1; i++)
-        {
-            portfolioItems[i].addEventListener("click", scrolling_Up);
-        }
-
-        for(let i = 0; i <= modals.length - 1; i++)
-        {
-            modals[i].addEventListener("scroll", scrolling);
-        }
-
-        
-
-        
-
-
-
-
-    </script>
-
+	<!-- Scroll to Top Button-->
+	<a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+	<!-- Bootstrap core JS-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- email.js -->
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
 </body>
 
 </html>
