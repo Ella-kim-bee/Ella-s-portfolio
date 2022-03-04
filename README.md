@@ -14,3 +14,9 @@
 ### Veu.js
 컴포넌트 구조를 이해하고 있으며, 단일 페이지 어플리케이션(SPA)을 제작합니다.
 back-end와 소통을 위해 데이터 전달 구조를 이해합니다.
+
+### portfolio
+1. picker : http://ellakim.dothome.co.kr/, https://ella-kim-bee.github.io/picker/
+2. Da+ : https://ella-kim-bee.github.io/Daplus/
+3. a-message : https://ella-kim-bee.github.io/amessage/
+4. To Do : https://ella-kim-bee.github.io/vue-todo-app/
